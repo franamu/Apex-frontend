@@ -10,13 +10,16 @@ import { PreguntasComponent } from './components/preguntas/preguntas.component';
 
 //Importar rutas:
 import { ROUTES } from './app.routes';
-import { PreguntasComponent } from './components/preguntas/preguntas.component';
+import { LoadingComponent } from './components/loading/loading.component';
+import { ListadoComponent } from './components/listado/listado.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    PreguntasComponent
+    PreguntasComponent,
+    LoadingComponent,
+    ListadoComponent
   ],
   imports: [
     BrowserModule,

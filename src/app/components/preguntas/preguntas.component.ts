@@ -29,5 +29,4 @@ export class PreguntasComponent implements OnInit {
             }
       }, 1);
   }
-
 }
