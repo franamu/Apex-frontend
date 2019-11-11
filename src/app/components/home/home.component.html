@@ -1,0 +1,10 @@
+<div class="list-group mt-5 mb-5">
+  <a *ngFor='let pregunta of preguntas' href="#" class="list-group-item list-group-item-action active mb-2">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">{{ pregunta.index}}</h5>
+      <small>{{updated}}</small>
+    </div>
+    <p class="mb-1">{{ pregunta.value}}</p>
+  </a>
+</div>
+<app-preguntas></app-preguntas>

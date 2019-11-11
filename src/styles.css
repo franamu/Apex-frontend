@@ -1,1 +1,57 @@
-/* You can add global styles to this file, and also import other style files */
+/* Animations */
+
+.anim {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.fast {
+    -webkit-animation-duration: 0.4s;
+    animation-duration: 0.4s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.slow {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@keyframes scaleIn {
+  from {
+    transform: scale(1, 1);
+    opacity: .8;
+  }
+  to {
+    transform: scale(1.5, 1.8);
+    opacity: 0;
+  }
+}
+
+@keyframes scaleInLoading {
+  from {
+    transform: scale(.5, .5);
+    opacity: .8;
+  }
+  to {
+    transform: scale(2, 2);
+    opacity: 0;
+  }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    animation-name: fadeIn;
+}
